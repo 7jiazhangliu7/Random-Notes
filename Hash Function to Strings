@@ -1,0 +1,3 @@
+The method hasCode has different implementation in different classes. 
+In the String class, hashCode is computed by the following formula:
+  s.charAt(0) * 31n-1 + s.charAt(1) * 31n-2 + ... + s.charAt(n-1)
