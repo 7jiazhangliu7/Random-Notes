@@ -5,14 +5,14 @@ public class Main {
     public static void main(String args[]) {
         // Animal a = new Animal("animal"); Error because Animal is abstract
         // Function f = new Function(); Error because interface cant create an object of itself
-        // Function i = new Dog(""); Error because Dog extends Animal already
-        
-        Animal a = new Dog("Dog");
-        a.cry(); // Wang!
+
+        Animal a = new Dog1("Dog");
+        a.cry();
         Animal a1 = new Cat("Cat");
-        a1.cry(); // Miao!
-        
+        a1.cry();
+        // Function i = new Dog(""); Error because Dog extends Animal already
+
         Function i = new Cow();
-        i.print(); // Cow
+        i.print();
     }
 }
