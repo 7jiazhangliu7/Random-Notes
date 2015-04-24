@@ -1,0 +1,4 @@
+abstract class 不能创建自己的object
+
+Interface不能创建自己的object
+
