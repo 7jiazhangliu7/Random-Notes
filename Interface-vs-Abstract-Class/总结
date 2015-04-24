@@ -2,3 +2,4 @@ abstract class 不能创建自己的object
 
 Interface不能创建自己的object
 
+只要被创建对象中有abstract的，就不能穿件他的object
